@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/filipe-block",
+  "version": "0.1.0",
+  "title": "Filipe Block",
+  "category": "widgets",
+  "icon": "editor-ul",
+  "description": "Filipe block for Awesome Motive",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "filipe-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

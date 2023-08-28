@@ -1,0 +1,35 @@
+.wp-block-create-block-filipe-block {
+	.data-table {
+		display: flex;
+		flex-direction: column;
+
+		.data-header,
+		.data-results {
+			display: flex;
+			justify-content: space-between;
+			width: 100%;
+			border-bottom: 1px solid #000;
+
+			div {
+				width: 20%;
+				
+				span {
+					padding: 10px;
+					display: block;
+				}
+			}
+		}
+
+		.data-header {
+			div {
+				font-weight: 700;
+			}
+		}
+
+		.data-results {			
+			span {
+				font-size: 12px;
+			}
+		}
+	}
+}
